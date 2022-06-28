@@ -1,25 +1,23 @@
 
 package br.com.tjdiego.docsus.GUI;
 
+import br.com.tjdiego.docsus.Negocio.Controle.ControlePaciente;
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoExistenteException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Diego
  */
-package GUI;
-import Negocio.Excecoes.ObjetoExistenteException;
-import Negocio.Fachada.ControlePaciente;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import javax.swing.ButtonGroup;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JButton;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
-import javax.swing.JRadioButton;
-import javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler;
+
+
 public class TelaCadastroPaciente extends Tela implements ActionListener{
  private JLabel textoTitulo, textoIdentificacao, textoNome, textoCpf,
  textoTelefoneFixo, textoCelular, textoSexo, 

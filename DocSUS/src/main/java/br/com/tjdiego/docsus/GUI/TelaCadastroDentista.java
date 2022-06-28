@@ -1,21 +1,22 @@
 
 package br.com.tjdiego.docsus.GUI;
 
+import br.com.tjdiego.docsus.Negocio.Controle.ControleDentista;
+import br.com.tjdiego.docsus.Negocio.Dentista;
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoExistenteException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Diego
  */
-package GUI;
-import Negocio.Dentista;
-import Negocio.Excecoes.ObjetoExistenteException;
-import Negocio.Fachada.ControleDentista;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JButton;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
+
+
 public class TelaCadastroDentista extends Tela implements ActionListener{
  private JLabel textoTitulo, textoIdentificacao, textoNome, textoCpf, 
  textoTelefoneFixo, textoCelular, textoCro, textoEndereco,

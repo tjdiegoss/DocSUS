@@ -1,13 +1,12 @@
 
-package br.com.tjdiego.docsus.Negocio.Controle;
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoExistenteException;
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoInexistenteException;
 
 /**
  *
  * @author Diego
+ * @param <T>
  */
-package Negocio.Fachada;
-import Negocio.Excecoes.ObjetoExistenteException;
-import Negocio.Excecoes.ObjetoInexistenteException;
 public interface Controle<T> {
  public void cadastrar()throws ObjetoExistenteException;
  public String buscar(String busca) throws ObjetoInexistenteException;

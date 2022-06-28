@@ -1,16 +1,17 @@
 
 package br.com.tjdiego.docsus.GUI;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+
 /**
  *
  * @author Diego
  */
-package GUI;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JLabel;
-import javax.swing.JButton;
-import javax.swing.ImageIcon;
+
+
 public class TelaPrincipal extends Tela implements ActionListener{
  private JLabel textoTitulo, subTitulo;
  private JButton pesquisar, cadastrar, marcarConsulta, semFucao;

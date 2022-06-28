@@ -1,14 +1,15 @@
 
 package br.com.tjdiego.docsus.Dados;
 
+import br.com.tjdiego.docsus.Negocio.Visita;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Diego
  */
-package Dados;
-import Negocio.Visita;
-import java.util.ArrayList;
-import java.util.List;
+
 public class RepositorioVisitas {
  //Cria uma lista de objetos do tipo Visita
  private List<Visita> listaVisitas = new ArrayList<Visita>();
@@ -16,9 +17,10 @@ public class RepositorioVisitas {
  public RepositorioVisitas() {
  }
  //Retorna a lista de objetos do tipo Visita
- public List<Visita> getListaVisitas() {
- return listaVisitas;
+ public List<Visita> getListaVisitas(){
+     return  listaVisitas;
  }
+ 
  
 }
 

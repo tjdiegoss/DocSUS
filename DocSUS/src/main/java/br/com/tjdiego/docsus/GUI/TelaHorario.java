@@ -1,17 +1,16 @@
 
 package br.com.tjdiego.docsus.GUI;
 
+import javax.swing.JPanel;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
 /**
  *
  * @author Diego
  */
-package GUI;
-import javax.swing.JLabel;
-import javax.swing.JTable;
-import javax.swing.JPanel;
-import javax.swing.JButton;
-import javax.swing.ImageIcon;
-import javax.swing.table.DefaultTableModel;
+
+
 public class TelaHorario extends Tela {
  private String[] colunas = new String[]{"Horário/Dia", "Segunda", "Terça",
  "Quarta", "Quinta", "Sexta"};

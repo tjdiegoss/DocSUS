@@ -1,23 +1,24 @@
 
 package br.com.tjdiego.docsus.GUI;
 
+import br.com.tjdiego.docsus.Negocio.Controle.ControleLogin;
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhaIncorretaException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Diego
  */
-package GUI;
-import Negocio.Excecoes.SenhaIncorretaException;
-import Negocio.Fachada.ControleLogin;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JPasswordField;
-import javax.swing.JPanel;
-import javax.swing.JFrame;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
+
+
 public class Login extends JFrame implements ActionListener {
  //Declaração dos componentes
  private JButton btEntrar;
@@ -58,7 +59,7 @@ panel.add(textoSenha).setLocation(300, 280);
  }
  /*Método que verifica qual botão foi clicado, executando as 
  ações correspondetes a eles*/
- public void actionPerformed(ActionEvent e) {
+/* public void actionPerformed(ActionEvent e) {
  if (e.getSource() == btEntrar) {
  try {
  janela.dispose();
@@ -67,6 +68,11 @@ panel.add(textoSenha).setLocation(300, 280);
  } catch (SenhaIncorretaException ex) {
  JOptionPane.showMessageDialog(null, ex.getMessage());
  }
- }
- }
+ }}*/
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+ 
 }

@@ -1,21 +1,22 @@
 
 package br.com.tjdiego.docsus.GUI;
 
+import br.com.tjdiego.docsus.Negocio.Controle.ControleEnfermeiro;
+import br.com.tjdiego.docsus.Negocio.Enfermeiro;
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoExistenteException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Diego
  */
-package GUI;
-import Negocio.Enfermeiro;
-import Negocio.Excecoes.ObjetoExistenteException;
-import Negocio.Fachada.ControleEnfermeiro;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JButton;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
+
+
 public class TelaCadastroEnfermeiro extends Tela implements ActionListener{
  private JLabel textoTitulo, textoIdentificacao, textoNome, textoCpf, 
  textoTelefoneFixo, textoCelular, textoCoren, textoEndereco,

@@ -1,13 +1,15 @@
 
 package br.com.tjdiego.docsus.Dados;
 
+import br.com.tjdiego.docsus.Negocio.PostoSaude;
+import java.util.ArrayList;
+
 /**
  *
  * @author Diego
  */
-package Dados;
-import Negocio.PostoSaude;
-import java.util.ArrayList;
+
+
 public class RepositorioPosto {
  //Cria uma lista de objetos do tipo Posto
  private ArrayList<PostoSaude> listaPosto = new ArrayList<PostoSaude>();

@@ -1,19 +1,25 @@
 
 package br.com.tjdiego.docsus.GUI;
 
+import br.com.tjdiego.docsus.Negocio.Controle.ControleAgente;
+import br.com.tjdiego.docsus.Negocio.Controle.ControleDentista;
+import br.com.tjdiego.docsus.Negocio.Controle.ControleEnfermeiro;
+import br.com.tjdiego.docsus.Negocio.Controle.ControleMedicamento;
+import br.com.tjdiego.docsus.Negocio.Controle.ControleMedico;
+import br.com.tjdiego.docsus.Negocio.Controle.ControlePaciente;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Diego
  */
-package GUI;
-import Negocio.Fachada.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JLabel;
-import javax.swing.JButton;
-import javax.swing.JTextField;
-import javax.swing.JComboBox;
-import javax.swing.ImageIcon;
+
+
 public class TelaPesquisa extends Tela implements ActionListener {
  public static JTextField busca;
  private JComboBox tipoPesquisa;

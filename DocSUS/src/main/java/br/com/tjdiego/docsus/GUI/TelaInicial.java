@@ -1,25 +1,25 @@
 
 package br.com.tjdiego.docsus.GUI;
 
+import br.com.tjdiego.docsus.Negocio.Controle.ControleAdmin;
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhaCurtaException;
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhaLongaException;
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhasDiferentesException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Diego
  */
-package GUI;
-import Negocio.Excecoes.SenhaCurtaException;
-import Negocio.Excecoes.SenhaLongaException;
-import Negocio.Excecoes.SenhasDiferentesException;
-import Negocio.Fachada.ControleAdmin;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JOptionPane;
-import javax.swing.JPasswordField;
-import javax.swing.JTextField;
+
 public class TelaInicial extends JFrame implements ActionListener {
  private JButton btOK;
  private JButton btCancelar;

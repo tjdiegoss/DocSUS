@@ -1,18 +1,21 @@
 
 package br.com.tjdiego.docsus.Negocio.Controle;
 
+import br.com.tjdiego.docsus.Dados.RepositorioAdmin;
+import br.com.tjdiego.docsus.Negocio.Administrador;
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhaCurtaException;
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhaLongaException;
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhasDiferentesException;
+import java.util.Arrays;
+
 /**
  *
  * @author Diego
  */
-package Negocio.Fachada;
-import Negocio.Administrador;
-import Dados.RepositorioAdmin;
-import Negocio.Excecoes.SenhaCurtaException;
-import Negocio.Excecoes.SenhaLongaException;
-import Negocio.Excecoes.SenhasDiferentesException;
-import java.util.Arrays;
+
+
 public class ControleAdmin {
+    
  private RepositorioAdmin radm = new RepositorioAdmin();
  public ControleAdmin() {
  }

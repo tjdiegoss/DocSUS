@@ -1,21 +1,22 @@
 
 package br.com.tjdiego.docsus.GUI;
 
+import br.com.tjdiego.docsus.Negocio.Agente;
+import br.com.tjdiego.docsus.Negocio.Controle.ControleAgente;
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoExistenteException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Diego
  */
-package GUI;
-import Negocio.Agente;
-import Negocio.Excecoes.ObjetoExistenteException;
-import Negocio.Fachada.ControleAgente;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.JButton;
-import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
+
+
 public class TelaCadastroAgente extends Tela implements ActionListener{
  private JLabel textoTitulo, textoIdentificacao, textoNome, textoCpf,
  textoTelefoneFixo, textoCelular,
@@ -226,6 +227,7 @@ super.panel.add(campoFuncao).setLocation(290, 140);
  public static void main (String args[]){
  TelaCadastroAgente tca = new TelaCadastroAgente();
  }
+ 
  public void actionPerformed(ActionEvent e) {
  if(e.getSource()== salvar){
  try{
@@ -241,4 +243,6 @@ new ControleAgente().cadastrar();
  new TelaPrincipal();
  }
  }
+
+    
 }
