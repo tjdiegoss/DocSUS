@@ -1,13 +1,13 @@
 
 package br.com.tjdiego.docsus.Negocio.Controle;
 
+import br.com.tjdiego.docsus.Negocio.Consulta;
+
 /**
  *
  * @author Diego
  */
-package Negocio.Fachada;
-import Negocio.Consulta;
-import javax.swing.JOptionPane;
+
 public class ControleConsulta implements Controle<Consulta>{
  
  Consulta consulta;

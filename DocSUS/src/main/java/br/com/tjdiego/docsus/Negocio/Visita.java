@@ -5,15 +5,20 @@ package br.com.tjdiego.docsus.Negocio;
  *
  * @author Diego
  */
-
-public class Consulta {
- private Medico medico;
- private Horario horario;
+public class Visita {
  private Paciente paciente;
- public Consulta(Medico medico, Horario horario, Paciente paciente) {
- this.medico = medico;
- this.horario = horario;
+ private Agente agente;
+ private Horario horario;
+ public Visita(Paciente paciente, Agente agente, Horario horario) {
  this.paciente = paciente;
+ this.agente = agente;
+this.horario = horario;
+ }
+ public Agente getAgente() {
+ return agente;
+ }
+ public void setAgente(Agente agente) {
+ this.agente = agente;
  }
  public Horario getHorario() {
  return horario;
@@ -21,27 +26,20 @@ public class Consulta {
  public void setHorario(Horario horario) {
  this.horario = horario;
  }
- public Medico getMedico() {
- return medico;
- }
- public void setMedico(Medico medico) {
-this.medico = medico;
- }
  public Paciente getPaciente() {
  return paciente;
  }
  public void setPaciente(Paciente paciente) {
  this.paciente = paciente;
  }
- @Override
+@Override
  public String toString(){
- return "Médico: " + this.medico + '\n'+
- "Horário: " + this.horario + '\n'+
- "Paciente: " + this.paciente;
+ return "Paciente: " + this.paciente + '\n' +
+ "Agente: " + this.agente + '\n' +
+ "Horário: " + this.horario;
  }
  public String toHTML(){
  return "<html>" + this.toString().replaceAll("\n", "<br>")
  + "</html>";
  }
 }
-

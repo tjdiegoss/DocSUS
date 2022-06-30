@@ -1,5 +1,5 @@
 
-package br.com.tjdiego.docsus.GUI;
+package Telas;
 
 import javax.swing.JPanel;
 import javax.swing.JTable;

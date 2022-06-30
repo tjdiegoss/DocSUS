@@ -5,7 +5,7 @@ package br.com.tjdiego.docsus.Negocio;
  *
  * @author Diego
  */
-package Negocio;
+
 public class Endereco {
  public String logradouro;
  public int numero;

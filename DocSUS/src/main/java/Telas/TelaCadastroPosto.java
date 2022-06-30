@@ -1,5 +1,5 @@
 
-package br.com.tjdiego.docsus.GUI;
+package Telas;
 
 import br.com.tjdiego.docsus.Negocio.Controle.ControlePosto;
 import java.awt.event.ActionEvent;

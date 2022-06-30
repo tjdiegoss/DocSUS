@@ -1,13 +1,14 @@
 
 package br.com.tjdiego.docsus.Negocio;
 
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoExistenteException;
+import java.util.ArrayList;
+
 /**
  *
  * @author Diego
  */
-package Negocio;
-import Negocio.Excecoes.ObjetoExistenteException;
-import java.util.ArrayList;
+
 public class Agente extends Pessoa{
  private String codigo;
  private String funcao;

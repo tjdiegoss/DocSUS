@@ -1,12 +1,13 @@
 
 package br.com.tjdiego.docsus.Negocio;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Diego
  */
-package Negocio;
-import java.util.ArrayList;
+
 public class Dentista extends Pessoa{
  private int cro;
  public Dentista(String nome, String cpf, Endereco endereco,

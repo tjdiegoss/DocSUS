@@ -1,12 +1,14 @@
 
 package br.com.tjdiego.docsus.Negocio.Controle;
 
+import Telas.Tela;
 import br.com.tjdiego.docsus.Dados.RepositorioAdmin;
 import br.com.tjdiego.docsus.Negocio.Administrador;
 import br.com.tjdiego.docsus.Negocio.Excecoes.SenhaCurtaException;
 import br.com.tjdiego.docsus.Negocio.Excecoes.SenhaLongaException;
 import br.com.tjdiego.docsus.Negocio.Excecoes.SenhasDiferentesException;
 import java.util.Arrays;
+
 
 /**
  *
@@ -21,8 +23,8 @@ public class ControleAdmin {
  }
  public void cadastrar() throws SenhaLongaException, SenhaCurtaException, 
 SenhasDiferentesException {
- char[] charSenha = GUI.TelaInicial.campoSenha.getPassword();
- char[] rptSenha = GUI.TelaInicial.campoRptSenha.getPassword();
+ char[] charSenha = Tela.TelaInicial.campoSenha.getPassword();
+ char[] rptSenha = Tela.TelaInicial.campoRptSenha.getPassword();
  String senha = new String(charSenha);
  
  if (Arrays.equals(charSenha, rptSenha)) {

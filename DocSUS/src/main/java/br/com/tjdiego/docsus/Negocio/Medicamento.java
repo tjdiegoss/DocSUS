@@ -5,7 +5,7 @@ package br.com.tjdiego.docsus.Negocio;
  *
  * @author Diego
  */
-package Negocio;
+
 public class Medicamento {
  private String nomeMedicamento;
  private String descricao;

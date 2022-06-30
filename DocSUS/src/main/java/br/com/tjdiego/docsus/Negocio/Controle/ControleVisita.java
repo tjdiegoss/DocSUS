@@ -1,5 +1,5 @@
 
-package br.com.tjdiego.docsus.Negocio.Fachada;
+package br.com.tjdiego.docsus.Negocio.Controle;
 
 /**
  *

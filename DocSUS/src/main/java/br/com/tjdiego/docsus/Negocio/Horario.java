@@ -5,8 +5,7 @@ package br.com.tjdiego.docsus.Negocio;
  *
  * @author Diego
  */
-package Negocio;
-import java.util.Date;
+
 public class Horario {
  public String data;
  public String hora;

@@ -9,8 +9,8 @@ package br.com.tjdiego.docsus.Negocio;
 
 import br.com.tjdiego.docsus.Dados.RepositorioAdmin;
 import br.com.tjdiego.docsus.Dados.RepositorioPosto;
-import br.com.tjdiego.docsus.GUI.Login;
-import br.com.tjdiego.docsus.GUI.TelaInicial;
+import Telas.Login;
+import Telas.TelaInicial;
 public class DocSUS {
  public static void main(String args[]) {
  RepositorioAdmin repadmin = new RepositorioAdmin();

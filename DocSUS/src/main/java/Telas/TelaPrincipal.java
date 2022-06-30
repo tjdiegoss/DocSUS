@@ -1,5 +1,5 @@
 
-package br.com.tjdiego.docsus.GUI;
+package Telas;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

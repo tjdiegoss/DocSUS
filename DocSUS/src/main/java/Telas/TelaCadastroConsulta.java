@@ -1,5 +1,5 @@
 
-package br.com.tjdiego.docsus.GUI;
+package Telas;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;

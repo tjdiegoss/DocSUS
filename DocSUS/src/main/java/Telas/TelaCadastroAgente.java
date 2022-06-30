@@ -1,5 +1,5 @@
 
-package br.com.tjdiego.docsus.GUI;
+package Telas;
 
 import br.com.tjdiego.docsus.Negocio.Agente;
 import br.com.tjdiego.docsus.Negocio.Controle.ControleAgente;

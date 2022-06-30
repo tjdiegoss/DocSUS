@@ -1,18 +1,20 @@
 
 package br.com.tjdiego.docsus.Negocio.Controle;
 
+import br.com.tjdiego.docsus.Dados.RepositorioAgentes;
+import Telas.TelaCadastroAgente;
+import br.com.tjdiego.docsus.Negocio.Agente;
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoExistenteException;
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Diego
  */
-package Negocio.Fachada;
-import Negocio.Agente;
-import Dados.RepositorioAgentes;
-import GUI.TelaCadastroAgente;
-import Negocio.Endereco;
-import Negocio.Excecoes.ObjetoExistenteException;
-import java.util.ArrayList;
-import javax.swing.JOptionPane;
+
+
+
 public class ControleAgente implements Controle<Agente> {
  private static RepositorioAgentes ra = new RepositorioAgentes();
  public ControleAgente(){

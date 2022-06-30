@@ -1,14 +1,16 @@
 
-package br.com.tjdiego.docsus.Negocio.Fachada;
+package br.com.tjdiego.docsus.Negocio.Controle;
+
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoExistenteException;
+import br.com.tjdiego.docsus.Negocio.Excecoes.ObjetoInexistenteException;
+import br.com.tjdiego.docsus.Negocio.Receita;
 
 /**
  *
  * @author Diego
  */
-package Negocio.Fachada;
-import Negocio.Excecoes.ObjetoExistenteException;
-import Negocio.Excecoes.ObjetoInexistenteException;
-import Negocio.Receita;
+
+
 public class ControleReceita implements Controle<Receita>{
  public void cadastrar() throws ObjetoExistenteException {
  throw new UnsupportedOperationException("Not supported yet.");

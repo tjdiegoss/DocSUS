@@ -1,12 +1,13 @@
 
 package br.com.tjdiego.docsus.Negocio;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Diego
  */
-package Negocio;
-import java.util.ArrayList;
+
 public class PostoSaude {
  private String codigoPosto;
  private String nome;

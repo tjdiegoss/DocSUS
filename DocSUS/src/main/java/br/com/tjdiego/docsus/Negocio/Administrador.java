@@ -1,14 +1,15 @@
 
 package br.com.tjdiego.docsus.Negocio;
 
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhaCurtaException;
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhaLongaException;
+import br.com.tjdiego.docsus.Negocio.Excecoes.SenhasDiferentesException;
+
 /**
  *
  * @author Diego
  */
-package Negocio;
-import Negocio.Excecoes.SenhaCurtaException;
-import Negocio.Excecoes.SenhaLongaException;
-import Negocio.Excecoes.SenhasDiferentesException;
+
 public class Administrador {
  private String usuario = "Admin";
  private String senha;
